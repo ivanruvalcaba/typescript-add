@@ -1,0 +1,28 @@
+{
+  "name": "add",
+  "version": "1.0.0",
+  "description": "A Javascript module that sum a sequence of integer numbers",
+  "main": "dist/add.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "alsatian \"./test/**/*.spec.ts\"",
+    "lint": "eslint \"src/\" --ext \".js,.ts\""
+  },
+  "keywords": [
+    "tdd",
+    "unit",
+    "test",
+    "example",
+    "add"
+  ],
+  "author": "Iván Ruvalcaba",
+  "license": "LGPL-3.0",
+  "devDependencies": {
+    "@types/node": "^14.14.20",
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
+    "alsatian": "^3.2.1",
+    "eslint": "^7.17.0",
+    "typescript": "^4.1.3"
+  }
+}

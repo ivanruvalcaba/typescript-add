@@ -1,0 +1,14 @@
+2021/01/14  Iván Ruvalcaba  <ivanruvalcaba[at]disroot[dot]org>
+
+  * Initial commit.
+    + src/add.ts: Add main module file.
+    + test/add.spec.ts: Add main module unittest file.
+    + .editorconfig: Add EditorConfig config file.
+    + .eslintrc: Add ESLint config file.
+    + .gitignore: Add gitignore config file.
+    + CHANGELOG: Add CHANGELOG file.
+    + LICENSE: Add LICENSE file.
+    + package.json: Add Node.js project config file.
+    + README.markdown: Add README file.
+    + tsconfig.json: Add TypeScript project config file.
+    + typescript-add.sublime-project: Add Sublime Text project config file.

@@ -1,13 +1,17 @@
 {
   "name": "add",
   "version": "1.0.0",
-  "description": "A Javascript module that sum a sequence of integer numbers",
-  "main": "dist/add.js",
-  "scripts": {
-    "build": "tsc",
-    "test": "alsatian \"./test/**/*.spec.ts\"",
-    "lint": "eslint \"src/\" --ext \".js,.ts\""
+  "description": "A module that sum a sequence of integer numbers",
+  "author": "Iván Ruvalcaba",
+  "license": "LGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanruvalcaba/typescript-add.git"
   },
+  "bugs": {
+    "url": "https://github.com/ivanruvalcaba/typescript-add/issues"
+  },
+  "homepage": "https://github.com/ivanruvalcaba/typescript-add#readme",
   "keywords": [
     "tdd",
     "unit",
@@ -15,8 +19,12 @@
     "example",
     "add"
   ],
-  "author": "Iván Ruvalcaba",
-  "license": "LGPL-3.0",
+  "main": "dist/add.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "alsatian \"./test/**/*.spec.ts\"",
+    "lint": "eslint \"src/\" --ext \".js,.ts\""
+  },
   "devDependencies": {
     "@types/node": "^14.14.20",
     "@typescript-eslint/eslint-plugin": "^4.13.0",
